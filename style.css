@@ -1,0 +1,12 @@
+* {
+    font-family: 'Russo One', sans-serif;
+}
+
+.scale-img:hover {
+    transform: scale(1.05);
+}
+
+.scale-img {
+    overflow: hidden;
+    transition: 1s;
+}
