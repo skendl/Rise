@@ -2,6 +2,10 @@
     font-family: 'Russo One', sans-serif;
 }
 
+.description {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .scale-img:hover {
     transform: scale(1.05);
 }
@@ -11,7 +15,7 @@
     transition: 1s;
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1001px) {
     .scale-img {
         height: 520px;
     }

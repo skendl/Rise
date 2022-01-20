@@ -682,6 +682,12 @@ progress {
   flex: 1 0 0%;
 }
 
+@media (max-width: 560px) { /* Введён самостоятельно */
+  .col {
+    flex: none;
+  }
+}
+
 .row-cols-auto > * {
   flex: 0 0 auto;
   width: auto;
