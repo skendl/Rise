@@ -10,3 +10,39 @@
     overflow: hidden;
     transition: 1s;
 }
+
+@media (max-width: 1920px) {
+    .scale-img {
+        height: 520px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .scale-img {
+        height: 420px;
+    }
+}
+
+@media (max-width: 840px) {
+    .scale-img {
+        height: 370px;
+    }
+}
+
+@media (max-width: 765px) {
+    .scale-img {
+        height: 320px;
+    }
+}
+
+@media (max-width: 650px) {
+    .scale-img {
+        height: 280px;
+    }
+}
+
+@media (max-width: 600px) {
+    .scale-img {
+        height: 230px;
+    }
+}
