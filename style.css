@@ -2,6 +2,8 @@
     font-family: 'Russo One', sans-serif;
 }
 
+Content-Security-Policy: script-src 'self' https://a.plerdy.com; 
+
 .description {
     font-family: 'Open Sans', sans-serif;
 }
