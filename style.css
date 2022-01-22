@@ -18,6 +18,11 @@
 iframe {
     border: none;
 }
+
+.modal {
+    backdrop-filter: blur(3px);
+}
+
 @media (min-width: 1001px) {
     .scale-img {
         height: 520px;
