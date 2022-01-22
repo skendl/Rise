@@ -15,6 +15,9 @@
     transition: 1s;
 }
 
+iframe {
+    border: none;
+}
 @media (min-width: 1001px) {
     .scale-img {
         height: 520px;
@@ -48,5 +51,11 @@
 @media (max-width: 600px) {
     .scale-img {
         height: 230px;
+    }
+}
+
+@media (max-width: 400px) {
+    iframe {
+        width: 100%;
     }
 }
