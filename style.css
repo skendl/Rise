@@ -2,6 +2,11 @@
     font-family: 'Russo One', sans-serif;
 }
 
+body {
+    background: url(./media/background.jpg) no-repeat center;
+    background-size: cover;
+}
+
 .description {
     font-family: 'Open Sans', sans-serif;
 }
